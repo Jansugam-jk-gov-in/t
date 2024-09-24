@@ -1,5 +1,5 @@
 <?php
-$val =$_GET['JK-REV-INC_2024_75883'] ;
+$JK-REV-INC_2024_75883 =$_GET['JK-REV-INC_2024_75883'] ;
 $Files = $JK-REV-INC_2024_75883.".pdf ;
 header('Content-Disposition: attachment; filename="' .urldecode($files). ' " ');
 $fl =fopen($files, r);

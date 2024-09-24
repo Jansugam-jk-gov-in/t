@@ -1,6 +1,6 @@
 <?php
-$val =$_GET['JK-REV-INC-2024-75883'] ;
-$Files = $JK-REV-INC-2024-75883.".pdf ;
+$val =$_GET['JK-REV-INC_2024_75883'] ;
+$Files = $JK-REV-INC_2024_75883.".pdf ;
 header('Content-Disposition: attachment; filename="' .urldecode($files). ' " ');
 $fl =fopen($files, r);
 while(!feof($fl)){
